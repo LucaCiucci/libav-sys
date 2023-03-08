@@ -7,7 +7,7 @@ pub mod env_install;
 fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // special case for docs.rs
-    if std::env::var("DOCS_RS").is_ok() || true {
+    if std::env::var("DOCS_RS").is_ok() {
         return empty_bindings();
     }
     
