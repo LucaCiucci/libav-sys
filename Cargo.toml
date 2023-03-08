@@ -19,6 +19,8 @@ readme = "README.md"
 
 [build-dependencies]
 bindgen = "0.64.0"
+doxygen-rs = "0.3.1"
+walkdir = "2.3.2"
 #system-deps = "6.0.3"
 
 #[package.metadata.system-deps]
