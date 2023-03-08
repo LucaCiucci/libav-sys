@@ -1,7 +1,6 @@
-//! Rust bindings for system libav libraries
+//! Rust bindings for system [libav](http://trac.ffmpeg.org/wiki/Using%20libav*) libraries
 //! 
-//! This crate searches for system installation of ffmpeg, it tries
-//! to generate bindings for all the 
+//! You can the automatically generated bindings in the [`ffi`] module;
 
 #![allow(deprecated)]
 #![allow(dead_code)]
@@ -11,7 +10,7 @@
 #![allow(clashing_extern_declarations)]
 
 
-/// This module contains the generated bindings for the system libav libraries.
+/// Generated bindings for the system libav libraries.
 /// 
 /// 
 /// # Warning
