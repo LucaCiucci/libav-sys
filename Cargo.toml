@@ -3,6 +3,15 @@ name = "libav-sys"
 version = "0.1.0"
 edition = "2021"
 build = "build/build.rs"
+license = "MIT"
+description = "Rust bindings for system libav libraries"
+#homepage = "https://github.com/LucaCiucci/libav-sys"
+# TODO documentation
+repository = "https://github.com/LucaCiucci/libav-sys"
+readme = "README.md"
+
+# lib
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
