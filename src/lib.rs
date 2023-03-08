@@ -1,14 +1,7 @@
 
 
-pub mod aaa {
-    include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
-}
-pub fn main() {
-    println!("Hello, world!");
+include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
-    use aaa::avcodec as avc;
-
-    unsafe {
-        aaa::avformat::avformat_network_init();
-    }
+fn hello_there() {
+    println!("Hello, there!");
 }
