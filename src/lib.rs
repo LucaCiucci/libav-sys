@@ -2,6 +2,6 @@
 
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
-fn hello_there() {
+pub fn hello_there() {
     println!("Hello, there!");
 }
